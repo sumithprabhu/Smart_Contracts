@@ -44,7 +44,7 @@ contract Subscription {
         amount[msg.sender]=0; 
     }
 
-    // A function to accept fees
+    // A function to accept subscription fees
     function deposit() payable public returns(bool){
         require(msg.value >= 1 ether,"Value is less than 1 ether");
         return true;   
