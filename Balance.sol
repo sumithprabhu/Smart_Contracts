@@ -5,7 +5,7 @@ contract Payable{
 
 address payable public owner;
 constructor () {
-// owner address should be payable
+
     owner = payable(msg.sender);
 }
 // All ether are deposit in msg.sender Address.
