@@ -10,7 +10,7 @@ constructor () {
 }
 // All ether are deposit in msg.sender Address.
 function deposit() external payable{}
-// check the balance of msg.sender address
+
 function getBalance() external view returns(uint){
     return address(this).balance;
 }
