@@ -8,7 +8,7 @@ constructor () {
 
     owner = payable(msg.sender);
 }
-// All ether are deposit in msg.sender Address.
+
 function deposit() external payable{}
 
 function getBalance() external view returns(uint){
